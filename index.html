@@ -19,7 +19,10 @@
       rel="stylesheet"
     />
     <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/7107feeffd.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/7107feeffd.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Tailwind Custom Color -->
     <script>
       tailwind.config = {
@@ -56,20 +59,90 @@
             <button class="btn btn-primary">Explore More</button>
           </div>
           <div>
-          <img src="images/banner.png" class="max-w-sm md:max-w-md lg:max-w-lg" />
-          <!-- Ratings Badge -->
-          <div class="flex items-center gap-3 drop-shadow-lg bg-white rounded-lg p-5 w-60 -translate-y-28 translate-x-20">
-            <i class="text-4xl text-amber-400 fa-solid fa-star"></i>
-            <div>
-              <h3 class="text-3xl">5.00</h3>
-              <p>Trust Pilot Ratings</p>
+            <img
+              src="images/banner.png"
+              class="max-w-sm md:max-w-md lg:max-w-lg"
+            />
+            <!-- Ratings Badge -->
+            <div
+              class="flex items-center gap-3 drop-shadow-lg bg-white rounded-lg p-5 w-60 -translate-y-28 translate-x-20"
+            >
+              <i class="text-4xl text-amber-400 fa-solid fa-star"></i>
+              <div>
+                <h3 class="text-3xl">5.00</h3>
+                <p>Trust Pilot Ratings</p>
+              </div>
             </div>
-          </div>
           </div>
         </div>
       </div>
     </header>
-    <main></main>
+    <main class="container mx-auto">
+      <!-- Featured Products Section -->
+      <section class="text-center my-24">
+        <h2 class="text-5xl font-extrabold mb-5">Our Featured Products</h2>
+        <p class="lg:max-w-3xl mx-auto mb-10">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
+        </p>
+        <!-- featured tea card container -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- card 1 -->
+          <div class="card p-7 shadow-xl bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4]">
+            <figure>
+              <img
+                src="images/tea-1.png"
+                alt=""
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="text-2xl font-bold">Milk Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="card p-7 shadow-xl bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4]">
+            <figure>
+              <img
+                src="images/tea-2.png"
+                alt=""
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="text-2xl font-bold">Milk Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="card p-7 shadow-xl bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4]">
+            <figure>
+              <img
+                src="images/tea-3.png"
+                alt=""
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="text-2xl font-bold">Milk Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div class="card p-7 shadow-xl bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4]">
+            <figure>
+              <img
+                src="images/tea-4.png"
+                alt=""
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="text-2xl font-bold">Milk Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
